@@ -28,6 +28,7 @@ Add a remote MCP server pointing at the endpoint above.
 | `search_esim_plans` | Search plans by country / region / type / duration. Returns `price_usd` (what the customer pays, current discount already applied), data, validity, fair-usage caveats, and `china_open_internet`. |
 | `get_plan_details` | Full details for one plan by id. |
 | `check_device_compatibility` | Check whether a phone/tablet supports eSIM. |
+| `create_checkout_link` | Get a secure checkout URL for a plan; the customer completes payment on-site. |
 
 Purchasing is completed by the human on [sinoconnection.com](https://www.sinoconnection.com) — the connector
 never handles payment.
