@@ -11,7 +11,7 @@ serving the community since 2001.
 
 ## Connect
 
-- **Endpoint:** `https://70ug3hqb29.execute-api.us-east-1.amazonaws.com/mcp`
+- **Endpoint:** `https://mcp.sinoconnection.com/mcp`
 - **Transport:** Streamable HTTP (MCP JSON-RPC 2.0)
 - **Auth:** none (public, read-only)
 
